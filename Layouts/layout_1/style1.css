@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #beccd3;
+}
+
+.contenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.hijos{
+    height: 180px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px black;
+    flex-grow: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+
+}
+
+.hijos:nth-child(3){
+    flex-grow: 2;
+    flex-basis: 30px;
+}
+
+.parte-baja{
+    margin-top: 1rem;
+    flex-direction: row-reverse;
+}
+
+.parte-baja .hijos{
+    height: 350px;
+}
+
+

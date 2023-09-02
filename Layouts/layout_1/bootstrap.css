@@ -1,0 +1,15 @@
+body {
+    background-color: #beccd3;
+}
+
+.height-arriba {
+    height: 200px;
+}
+
+.height-abajo {
+    height: 350px;
+}
+
+.shadow{
+    box-shadow: 0px 0px 5px black;
+}

@@ -1,0 +1,17 @@
+
+
+
+//Paddings
+@mixin padding($valor1: 0, $valor2: 0){
+    padding: $valor1 $valor2;
+}
+
+@mixin padding-any($tipoPadding, $valor){
+    padding-#{$tipoPadding}: $valor;
+}
+
+
+//Margins
+@mixin margin-any($tipoMargin, $valor){
+    margin-#{$tipoMargin}: $valor;
+}

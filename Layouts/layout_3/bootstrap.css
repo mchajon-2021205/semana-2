@@ -1,0 +1,62 @@
+body {
+    background-color: #dedede;
+    color: #dedede;
+}
+
+.side-bar {
+    height: 110vh;
+    background: linear-gradient(rgb(199, 141, 252),
+            rgb(59, 134, 231),
+            rgb(199, 141, 252));
+    ;
+    margin-left: -0.7rem;
+}
+
+.contenido {
+    width: 1000px;
+}
+
+.contenido-izquierda {
+    height: auto;
+}
+
+.arriba {
+    height: 200px;
+    background: linear-gradient(to right,
+            rgb(59, 134, 231),
+            rgb(199, 141, 252));
+    ;
+}
+
+.altura-1 {
+    height: 200px;
+}
+
+.altura-2 {
+    height: 150px;
+}
+
+.margin-left {
+    margin-left: 18%;
+}
+
+.margin-top{
+    margin-top: -2.8rem;
+}
+
+
+.span{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.span:hover{
+    background-color: rgb(220 224 227 / .6);
+}
+
+.span:active{
+    background-color: rgb(220 224 227 / .3);
+}
